@@ -1,0 +1,21 @@
+{
+  "name": "r-b-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "normalize.css": "^8.0.1",
+    "particles.js": "^2.0.0",
+    "three": "^0.168.0"
+  }
+}

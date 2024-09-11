@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Login Form</title>
+  <link rel="stylesheet" href="resp.css" />
+</head>
+<body>
+  <div class="login-container">
+    <form id="loginForm">
+      <div class="profile-pic-section">
+        <img id="profilePicPreview" src="NIDA.JPG" alt="Profile Picture" />
+        <input type="file" id="profilePicInput" accept="image/*" />
+      </div>
+
+      <h2>Register</h2>
+
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required />
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required />
+        <span class="toggle-password" id="togglePassword">👁️</span>
+      </div>
+
+      <div class="input-group">
+        <label for="education">Education</label>
+        <input type="text" id="education" placeholder="Enter your education" />
+      </div>
+
+      <div class="input-group">
+        <label for="skills">Skills</label>
+        <input type="text" id="skills" placeholder="Enter your skills" />
+      </div>
+
+      <div class="input-group">
+        <label for="mobile">Mobile Number</label>
+        <input type="tel" id="mobile" placeholder="Enter your mobile number" required />
+      </div>
+
+      <button type="submit">Register</button>
+
+      <p id="errorMessage"></p>
+    </form>
+  </div>
+
+  <script src="resp.js"></script>
+</body>
+</html>
